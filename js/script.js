@@ -23,3 +23,20 @@ if(acessmail) {
 }
 
 // fine primo-esercizio
+
+// secondo-esercizio
+var numeroumano = Math.floor(Math.random() *6) +1;
+prompt('Scrivi un numero da 1 a 6:');
+
+var numeropc = Math.floor(Math.random() *6) +1;
+alert('Il numero scelto dal pc è: '+ numeropc);
+
+//Formula per il vincitore
+if(numeroumano > numeropc) {
+  alert('Hai vinto!')
+} else if(numeropc > numeroumano) {
+  alert('Hai perso!');
+  alert('Riprova!');
+}
+
+// fine formula
